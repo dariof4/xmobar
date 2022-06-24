@@ -28,6 +28,8 @@
             xorg.libXext
             xorg.libXft
             pipewire
+            alsa-lib
+            alsa-oss
           ];
         };
         defaultPackage = pkgs.haskellPackages.xmobar;
