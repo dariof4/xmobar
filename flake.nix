@@ -27,6 +27,7 @@
             xorg.libXScrnSaver
             xorg.libXext
             xorg.libXft
+            pipewire
           ];
         };
         defaultPackage = pkgs.haskellPackages.xmobar;
